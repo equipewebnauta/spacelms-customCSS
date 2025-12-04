@@ -3,12 +3,13 @@ Aqui vai meu CSS Personalizado
 */
 :root{
     --border-white: #fff;
+    --border-default: 1px solid var(--border-white)
 }
 
 
 /*Sidebar*/
 .vibebp_myprofile .profile_menu{
-    border: 1px solid var(--border-white);
+    border: var(--border-default);
     margin: 16px;
     border-radius: 8px;
     top: 16px;
@@ -67,4 +68,13 @@ Aqui vai meu CSS Personalizado
     flex-direction: column;
     justify-content: center;
     font-size: 1rem;
+}
+
+
+/*Content*/
+.vibebp_myprofile .profile_grid{
+    background: transparent;
+    width: 94%;
+    padding: 0;
+    border: var(--border-default);
 }
