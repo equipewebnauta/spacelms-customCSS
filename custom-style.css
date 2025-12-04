@@ -38,7 +38,7 @@ Aqui vai meu CSS Personalizado
 }
 
 .profile_menu.active .menu_items{
-    padding: 16px;
+    padding: 0 16px 16px;
 }
 
 .profile_menu .menu_items .bp-menu,
