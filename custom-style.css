@@ -24,3 +24,24 @@ Aqui vai meu CSS Personalizado
 .vibebp_myprofile>div.profile_menu div.site_logo>img{
     padding: 0;
 }
+
+.profile_menu .menu_items {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+}
+
+.profile_menu.active .menu_items{
+    padding: 16px;
+}
+
+.profile_menu .menu_items .bp-menu{
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.profile_menu.active .menu_items .bp-menu{
+    padding: 8px;
+}
