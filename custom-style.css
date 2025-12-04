@@ -81,4 +81,10 @@ Aqui vai meu CSS Personalizado
     /* border: var(--border-default); */
     border: 1px solid red;
     border-radius: 8px;
+    height: 97vh;
+    margin: 16px 0 16px;
+}
+
+.vibebp_myprofile .dashboard{
+    min-height: calc(100vh - 150px);
 }
