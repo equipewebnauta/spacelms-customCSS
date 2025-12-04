@@ -77,6 +77,8 @@ Aqui vai meu CSS Personalizado
 .vibebp_myprofile .profile_grid{
     background: transparent;
     width: 94%;
-    padding: 0;
-    border: var(--border-default);
+    padding: 16px;
+    /* border: var(--border-default); */
+    border: 1px solid red;
+    border-radius: 8px;
 }
