@@ -36,12 +36,23 @@ Aqui vai meu CSS Personalizado
     padding: 16px;
 }
 
-.profile_menu .menu_items .bp-menu{
+.profile_menu .menu_items .bp-menu,
+.profile_menu .menu_items .inicio.external_link{
     border: 1px solid rgba(255, 255, 255, .3);
     border-radius: 4px;
     padding: 4px;
 }
 
-.profile_menu.active .menu_items .bp-menu{
+.profile_menu.active .menu_items .bp-menu,
+.profile_menu.active .menu_items .inicio.external_link{
     padding: 8px;
+}
+
+.bp-menu.bp-profile-nav.hasChildren .sub_nav_items{
+    margin: 8px 0 0 0;
+    padding: 4px 4px 4px 8px;
+}
+
+.bp-menu.bp-profile-nav.hasChildren .sub_nav_items .bp-menu:not(:last-child){
+    margin-bottom: 8px;
 }
