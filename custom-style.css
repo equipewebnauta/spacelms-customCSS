@@ -37,14 +37,14 @@ Aqui vai meu CSS Personalizado
 }
 
 .profile_menu .menu_items .bp-menu,
-.profile_menu .menu_items .inicio.external_link{
+.profile_menu .menu_items .external_link{
     border: 1px solid rgba(255, 255, 255, .3);
     border-radius: 4px;
     padding: 4px;
 }
 
 .profile_menu.active .menu_items .bp-menu,
-.profile_menu.active .menu_items .inicio.external_link{
+.profile_menu.active .menu_items .external_link{
     padding: 8px;
 }
 
