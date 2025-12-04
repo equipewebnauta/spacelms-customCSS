@@ -1,8 +1,19 @@
 /*
 Aqui vai meu CSS Personalizado
 */
-
+:root{
+    --border-white: #fff;
+}
 
 body{
-    background-color: #000;
+    /* background-color: #000; */
+}
+
+
+/*Sidebar*/
+.vibebp_myprofile .profile_menu{
+    border: 1px solid var(--border-white);
+    margin: 16px;
+    background: transparent;
+    border-radius: 8px;
 }
