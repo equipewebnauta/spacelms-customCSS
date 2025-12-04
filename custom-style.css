@@ -22,6 +22,8 @@ Aqui vai meu CSS Personalizado
 
 .profile_menu.active div.site_logo{
     padding: 8px;
+    max-width: 144px;
+    margin: 0 auto;
 }
 
 .vibebp_myprofile>div.profile_menu div.site_logo>img{
