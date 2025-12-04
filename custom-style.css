@@ -3,7 +3,9 @@ Aqui vai meu CSS Personalizado
 */
 :root{
     --border-white: #fff;
-    --border-default: 1px solid var(--border-white)
+    --border-default: 1px solid var(--border-white);
+
+    --border-radius-default: 8px;
 }
 
 
@@ -11,7 +13,7 @@ Aqui vai meu CSS Personalizado
 .vibebp_myprofile .profile_menu{
     border: var(--border-default);
     margin: 16px;
-    border-radius: 8px;
+    border-radius: var(--border-radius-default);
     top: 16px;
     max-height: 97vh;
 }
@@ -80,11 +82,20 @@ Aqui vai meu CSS Personalizado
     padding: 16px;
     /* border: var(--border-default); */
     border: 1px solid red;
-    border-radius: 8px;
+    border-radius: var(--border-radius-default);
     height: 97vh;
     margin: 16px 0 16px;
 }
 
 .vibebp_myprofile .dashboard{
     min-height: calc(100vh - 150px);
+}
+
+
+/*Content Header*/
+.vibebp_myprofile .profile_grid .profile_grid_header{
+    padding: 16px;
+    border: 1px solid blue;
+    border-radius: var(--border-radius-default);
+    margin: 0 0 16px;
 }
