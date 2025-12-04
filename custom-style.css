@@ -11,6 +11,8 @@ Aqui vai meu CSS Personalizado
     border: 1px solid var(--border-white);
     margin: 16px;
     border-radius: 8px;
+    top: 16px;
+    max-height: 97vh;
 }
 
 .profile_menu div.site_logo{
