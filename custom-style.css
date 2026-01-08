@@ -5,16 +5,16 @@
 /*
 Aqui vai meu CSS Personalizado SPACE
 */
-:root{
+/* :root{
     --border-white: #fff;
     --border-default: 1px solid var(--border-white);
 
     --border-radius-default: 8px;
 }
-
+ */
 
 /*Sidebar*/
-.vibebp_myprofile .profile_menu{
+/* .vibebp_myprofile .profile_menu{
     border: var(--border-default);
     margin: 16px;
     border-radius: var(--border-radius-default);
@@ -76,30 +76,67 @@ Aqui vai meu CSS Personalizado SPACE
     flex-direction: column;
     justify-content: center;
     font-size: 1rem;
-}
+} */
 
 
 /*Content*/
-.vibebp_myprofile .profile_grid{
+
+/* .vibebp_myprofile .profile_grid{
     background: transparent;
     width: 94%;
     padding: 16px;
-    /* border: var(--border-default); */
     border: 1px solid red;
     border-radius: var(--border-radius-default);
     height: 97vh;
     margin: 16px 0 16px;
-}
+} */
 
-.vibebp_myprofile .dashboard{
+/* .vibebp_myprofile .dashboard{
     min-height: calc(100vh - 150px);
-}
+} */
 
 
 /*Content Header*/
-.vibebp_myprofile .profile_grid .profile_grid_header{
+/* .vibebp_myprofile .profile_grid .profile_grid_header{
     padding: 16px;
     border: 1px solid blue;
     border-radius: var(--border-radius-default);
     margin: 0 0 16px;
-}
+} */
+
+
+
+
+ .profile_menu {
+            position: relative;
+            overflow: hidden;
+            isolation: isolate;
+
+            /* Vidro escuro MAIS translúcido (iOS 18 real) */
+            background: linear-gradient(180deg,
+                    rgba(28, 28, 30, 0.42),
+                    rgba(18, 18, 20, 0.38)) !important;
+
+            color: #ffffff !important;
+
+            /* Blur mais forte, menos peso visual */
+            backdrop-filter: blur(34px) saturate(165%) contrast(112%);
+            -webkit-backdrop-filter: blur(34px) saturate(165%) contrast(112%);
+
+            border-radius: 12px !important;
+
+            /* Borda quase invisível (Apple usa assim) */
+            border: 1px solid rgba(255, 255, 255, 0.09) !important;
+
+            /* Profundidade sutil (menos sombra preta) */
+            box-shadow:
+                0 22px 55px rgba(0, 0, 0, 0.55),
+                inset 0 1px 0 rgba(255, 255, 255, 0.07),
+                inset 0 -2px 3px rgba(0, 0, 0, 0.45) !important;
+
+            transition:
+                transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+
+            -webkit-font-smoothing: antialiased;
+        }
