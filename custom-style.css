@@ -111,7 +111,7 @@ Aqui vai meu CSS Personalizado SPACE
             position: relative;
             overflow: hidden;
             isolation: isolate;
-            margin:2%;
+            margin:2% !important;
             /* Vidro escuro MAIS translúcido (iOS 18 real) */
             background: linear-gradient(180deg,
                     rgba(28, 28, 30, 0.42),
