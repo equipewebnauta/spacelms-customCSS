@@ -1,142 +1,620 @@
+/* #region ================== CONFIGURAÇÕES PADRÕES ================== */
 
+/* DESIGN TOKENS */
+:root {
+    --glass-blur: 50px;
+    --glass-bg: rgba(255, 255, 255, 0.046);
+    --glass-border-color: rgba(255, 255, 255, 0.3);
+    --glass-radius: 12px;
 
+    --glass-shadow-1: inset 1px 1px 3px rgba(255, 255, 255, 0.3);
+    --glass-shadow-2: inset 0 0 5px rgba(255, 255, 255, 0.2);
 
+    --glass-item-bg: rgba(255, 255, 255, 0.1);
+    --glass-item-bg-hover: rgba(255, 255, 255, 0.25);
+    --glass-item-radius: 8px;
 
-/*
-Aqui vai meu CSS Personalizado SPACE
-*/
-/* :root{
-    --border-white: #fff;
-    --border-default: 1px solid var(--border-white);
+    --color-white: #ffffff;
 
-    --border-radius-default: 8px;
-}
- */
-
-/*Sidebar*/
-/* .vibebp_myprofile .profile_menu{
-    border: var(--border-default);
-    margin: 16px;
-    border-radius: var(--border-radius-default);
-    top: 16px;
-    max-height: 97vh;
+    --bg-image-url: url('http://spacedev.agenciawebnauta.com.br/wp-content/uploads/2026/01/walpaper.png');
 }
 
-.profile_menu div.site_logo{
-    padding: 4px;
-}
-
-.profile_menu.active div.site_logo{
-    padding: 8px;
-    max-width: 144px;
-    margin: 0 auto;
-}
-
-.vibebp_myprofile>div.profile_menu div.site_logo>img{
+/* BACKGROUND GLOBAL */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
     padding: 0;
+
+    background-image: var(--bg-image-url) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+
+    overflow-x: hidden;
 }
 
-.profile_menu .menu_items {
-    padding: 8px;
+/* GLASS SYSTEM */
+.glass {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    border-radius: var(--glass-radius) !important;
+}
+
+.glass-item {
     display: flex;
-    flex-direction: column;
-    gap: 8px; 
+    align-items: center;
+    padding: 8px 12px;
+    background: var(--glass-item-bg) !important;
+    border-radius: var(--glass-item-radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.profile_menu.active .menu_items{
-    padding: 0 16px 16px;
+.glass-item:hover {
+    background: var(--glass-item-bg-hover) !important;
+    transform: translateY(-1px);
+}
+
+/* APLICAÇÃO DO GLASS */
+.liquid-glass,
+.profile_menu,
+.container,
+.wrapper,
+.mycourses_header,
+.vibebp_left_sidebar_wrapper,
+.dashboard_widget,
+.end_block,
+.vbp_message,
+.my_certificate,
+.finished_course,
+.single_lmsbadge,
+.portal_header,
+.portal_body,
+.course_students,
+.course_information,
+.instructor_tabs,
+.students_filter,
+.student_list,
+.download_stats_wrapper {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    padding: 1%;
+    border-radius: var(--glass-radius) !important;
+    color: var(--color-white) !important;
+}
+
+
+
+.course_information {
+    padding-block: 5% !important;
+}
+
+
+/* CADA AÇÃO (BOTÃO) */
+.bulk_action .tip {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    padding: 1%;
+    border-radius: var(--glass-radius) !important;
+    color: var(--color-white) !important;
+}
+
+/* INPUT E SELECT BASE */
+.students_filter input,
+.students_filter select,
+.course_stats_download_actions select {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    padding: 1%;
+    border-radius: var(--glass-radius) !important;
+    color: gray;
+}
+
+
+.portal_body {
+    margin-top: 2%;
+}
+
+/* LIMPEZA DE FUNDOS */
+.vibebp_main,
+.profile_grid,
+.course_status .course_timeline {
+    background: transparent !important;
+}
+
+.vibebp_main * {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+
+.profile_menu * {
+    background: transparent !important;
+}
+
+
+
+
+
+/* #region BUTTON – LIQUID GLASS */
+
+.button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 10px 16px !important;
+    border-radius: var(--glass-radius) !important;
+
+    /* BASE GLASS */
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+
+
+
+    color: var(--color-white) !important;
+    text-decoration: none !important;
+    cursor: pointer;
+
+    transition: all 0.35s ease !important;
+    overflow: hidden;
+}
+
+/* REFLEXO LIQUID */
+.button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(120deg,
+            transparent,
+            rgba(255, 255, 255, 0.25),
+            transparent) !important;
+
+    opacity: 0;
+    transition: opacity 0.4s ease !important;
+    pointer-events: none;
+}
+
+/* HOVER */
+.button:hover {
+    transform: translateY(-1px) scale(1.05) !important;
+    background: var(--glass-item-bg-hover) !important;
+
+}
+
+.button:hover::before {
+    opacity: 1 !important;
+}
+
+/* ACTIVE / FOCUS */
+.button:active,
+.button:focus-visible {
+    transform: scale(0.97) !important;
+
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.22),
+            rgba(255, 255, 255, 0.1)) !important;
+
+
+
+    outline: none !important;
+}
+
+/* #endregion BUTTON – LIQUID GLASS */
+
+
+
+
+/* #endregion ================== CONFIGURAÇÕES PADRÕES ================== */
+
+
+
+/* #region ================== PROFILE MENU ================== */
+
+.profile_menu {
+    margin: 15px !important;
+    padding: 10px;
+}
+
+.profile_menu .site_logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 16px;
 }
 
 .profile_menu .menu_items .bp-menu,
-.profile_menu .menu_items .external_link{
-    border: 1px solid rgba(255, 255, 255, .3);
-    border-radius: 4px;
-    padding: 4px;
-}
-
-.profile_menu.active .menu_items .bp-menu,
-.profile_menu.active .menu_items .external_link{
-    padding: 8px;
-}
-
-.bp-menu.bp-profile-nav.hasChildren .sub_nav_items{
-    margin: 8px 0 0 0;
-    padding: 4px 4px 4px 8px;
-}
-
-.bp-menu.bp-profile-nav.hasChildren .sub_nav_items .bp-menu:not(:last-child){
-    margin-bottom: 8px;
-}
-
-.profile_menu.active .menu_items .external_link{
-    padding: 10px 18px;
-    color: var(--white);
+.profile_menu .todos-cursos,
+.profile_menu .inicio,
+.profile_menu .menu_bottom .menu_item {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: var(--glass-item-bg) !important;
+    border-radius: var(--glass-item-radius);
     cursor: pointer;
-    display: flex !important;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+.profile_menu .menu_items .bp-menu:hover,
+.profile_menu .todos-cursos:hover,
+.profile_menu .inicio:hover,
+.profile_menu .menu_bottom .menu_item:hover {
+    background: var(--glass-item-bg-hover) !important;
+    transform: translateY(-1px);
+}
+
+.profile_menu svg {
+    fill: var(--color-white);
+}
+
+.profile_menu span span:last-child {
+    color: var(--color-white);
+    font-weight: 500;
+}
+
+.menu_items .icon,
+.inicio.vicon-new-window {
+    margin-left: -11px !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile_menu .menu_bottom {
+    margin-top: 16px;
+}
+
+.profile_menu .menu_bottom .menu_item {
+    padding: 6px 10px;
+    margin-bottom: 6px;
+}
+
+.profile_menu .menu_bottom .menu_item svg {
+    margin-right: 6px;
+}
+
+
+
+.menu_items {
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    /* Alinha os elementos filhos à esquerda */
+    text-align: left;
+    /* Alinha o texto à esquerda */
+}
+
+.menu_items>div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.menu_items span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Espaço entre ícone e texto */
+}
+
+.menu_items .icon {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    font-size: 1rem;
-} */
+    width: 24px;
+    height: 24px;
+}
+
+.menu_items svg {
+    display: block;
+}
+
+.profile_menu .menu_items .bp-menu,
+.profile_menu .todos-cursos,
+.profile_menu .inicio {
+
+    align-items: start;
+
+}
 
 
-/*Content*/
+.vibebp_myprofile .profile_menu.active .menu_items>div:hover>div {
 
-/* .vibebp_myprofile .profile_grid{
-    background: transparent;
-    width: 94%;
-    padding: 16px;
-    border: 1px solid red;
-    border-radius: var(--border-radius-default);
-    height: 97vh;
-    margin: 16px 0 16px;
-} */
+    width: 100%;
+    margin-inline: 1%;
+}
 
-/* .vibebp_myprofile .dashboard{
-    min-height: calc(100vh - 150px);
-} */
+/* #endregion ================== PROFILE MENU ================== */
 
 
-/*Content Header*/
-/* .vibebp_myprofile .profile_grid .profile_grid_header{
-    padding: 16px;
-    border: 1px solid blue;
-    border-radius: var(--border-radius-default);
-    margin: 0 0 16px;
-} */
+/* #region estatisticas do curso  */
+
+
+.course_general_stats .data {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    padding: 1%;
+    border-radius: var(--glass-radius) !important;
+    color: var(--color-white) !important;
+
+}
+
+
+/* #endregion ================== ESTATÍSTICAS DO CURSO ==================  */
 
 
 
 
- .profile_menu {
-            position: relative;
-            overflow: hidden;
-            isolation: isolate;
-            margin:2% !important;
-            /* Vidro escuro MAIS translúcido (iOS 18 real) */
-            background: linear-gradient(180deg,
-                    rgba(28, 28, 30, 0.42),
-                    rgba(18, 18, 20, 0.38)) !important;
+/* #region Editar curso  */
 
-            color: #ffffff !important;
 
-            /* Blur mais forte, menos peso visual */
-            backdrop-filter: blur(34px) saturate(165%) contrast(112%);
-            -webkit-backdrop-filter: blur(34px) saturate(165%) contrast(112%);
 
-            border-radius: 12px !important;
 
-            /* Borda quase invisível (Apple usa assim) */
-            border: 1px solid rgba(255, 255, 255, 0.09) !important;
 
-            /* Profundidade sutil (menos sombra preta) */
-            box-shadow:
-                0 22px 55px rgba(0, 0, 0, 0.55),
-                inset 0 1px 0 rgba(255, 255, 255, 0.07),
-                inset 0 -2px 3px rgba(0, 0, 0, 0.45) !important;
+.vibe_editor {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    padding: 1% !important;
+    border-radius: var(--glass-radius) !important;
+    color: var(--color-white) !important;
+}
 
-            transition:
-                transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 
-            -webkit-font-smoothing: antialiased;
-        }
+
+
+.wplms_course_creation_tabs li.create_course {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+
+    margin-inline: 5px;
+    border-radius: var(--glass-radius) !important;
+    color: var(--color-white) !important;
+
+}
+
+.wplms_course_creation_tabs li.course_settings {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+
+    margin-inline: 5px;
+    border-radius: var(--glass-radius) !important;
+    color: var(--color-white) !important;
+
+}
+
+.wplms_course_creation_tabs li.course_components {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+
+    margin-inline: 5px;
+    border-radius: var(--glass-radius) !important;
+    color: var(--color-white) !important;
+
+}
+
+.wplms_course_creation_tabs li.course_curriculum {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+
+    margin-inline: 5px;
+    border-radius: var(--glass-radius) !important;
+    color: var(--color-white) !important;
+
+}
+
+.wplms_course_creation_tabs li.course_pricing {
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color);
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+
+    margin-inline: 5px;
+    border-radius: var(--glass-radius) !important;
+    color: var(--color-white) !important;
+
+}
+
+
+.vibe_vibe_duration .field_wrapper {
+    padding: 8px 12px;
+    /* BASE GLASS */
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+}
+
+
+.term_select,
+.featured_video {
+    padding: 2px;
+    /* BASE GLASS */
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+}
+
+.search_term,
+.vibe_editor_element,
+.draftJsToolbar__button__qi1gf,
+.switch,
+.course_drafts,
+.wplms_create_course_help_wrapper,
+.textarea_field {
+    margin: 3px;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+}
+
+
+
+
+/* HOVER */
+.search_term:hover,
+.vibe_editor_element:hover,
+.draftJsToolbar__button__qi1gf:hover {
+    transform: translateY(-1px);
+}
+
+
+
+.vibe_vibe_pre_course,
+.vibe_vibe_course_prev_unit_quiz_lock,
+.vibe_vibe_course_offline,
+.vibe_vibe_force_batch_enrolment,
+.vibe_vibe_batch_display,
+.vibe_vibe_hide_expired_course_batches,
+.vibe_vibe_course_drip,
+.vibe_wplms_price_per_batch_seat,
+.vibe_vibe_course_certificate,
+.vibe_vibe_course_retakes,
+.vibe_vibe_course_instructions,
+.vibe_vibe_course_message,
+.vibe_vibe_group,
+.vibe_vibe_course_attendance_data,
+.vibe_vibe_course_attendance,
+.vibe_vibe_course_attendance_auto,
+.vibe_vibe_batches,
+.vibe_vibe_badge,
+.course_section,
+.vibe_vibe_course_free,
+.vibe_vibe_product,
+.vibe_vibe_partial_free_course,
+.vibe_vibe_course_apply,
+.next_curriculum_item,
+.vibe_vibe_gamification {
+    margin: 3px;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+
+}
+
+
+
+
+/* #endregion  */
+
+
+
+/* #region Visualização do aluno curso  */
+
+
+
+.course_instructions,
+.course_timeline {
+    margin: 3px;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+
+}
+
+.unit,
+.section,
+.course_content_content,
+.unit_attachments {
+
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+
+}
+
+
+.lesson_info span {
+    margin: 3px;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    padding: 1%;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+}
+
+
+.course_content_header,
+.action_points {
+    margin: 10px !important;
+    backdrop-filter: blur(50px) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    padding: 2%;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+}
+
+
+
+/* #endregion  */
