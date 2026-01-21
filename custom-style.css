@@ -155,7 +155,7 @@ body {
 
 input::placeholder,
 textarea::placeholder {
-    color: var(--color-glass-global) !important;
+     color: gray !important;
 }
 
 
