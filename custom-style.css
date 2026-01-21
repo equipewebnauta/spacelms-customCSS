@@ -14,7 +14,7 @@
     --glass-item-bg-hover: rgba(255, 255, 255, 0.25);
     --glass-item-radius: 8px;
 
-    --color-white: #ffffff;
+    --color-glass-global: #ffffff;
 
 }
 
@@ -31,7 +31,7 @@ body {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-
+    color: white !important;
     overflow-x: hidden;
 }
 
@@ -43,12 +43,14 @@ body {
 .course_status .course_timeline,
 .portal {
     background: transparent !important;
+    color: var(--color-glass-global) !important;
 }
 
 .vibebp_main * {
     background: transparent !important;
     background-color: transparent !important;
     background-image: none !important;
+    color: var(--color-glass-global) !important;
 }
 
 
@@ -112,7 +114,7 @@ body {
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2) !important;
     padding: 1%;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 }
 
 
@@ -159,7 +161,7 @@ body {
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
     padding: 1%;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 }
 
 /* INPUT E SELECT BASE */
@@ -218,7 +220,7 @@ a.button.is-primary.small {
 
 
 
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
     text-decoration: none !important;
     cursor: pointer;
 
@@ -248,7 +250,7 @@ a.button.is-primary.small {
 
 
 
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
     text-decoration: none !important;
     cursor: pointer;
 
@@ -343,11 +345,11 @@ a.button.is-primary.small {
 }
 
 .profile_menu svg {
-    fill: var(--color-white);
+    fill: var(--color-glass-global);
 }
 
 .profile_menu span span:last-child {
-    color: var(--color-white);
+    color: var(--color-glass-global);
     font-weight: 500;
 }
 
@@ -437,7 +439,7 @@ a.button.is-primary.small {
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
     padding: 1%;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -461,7 +463,7 @@ a.button.is-primary.small {
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
     padding: 1% !important;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 }
 
 
@@ -476,7 +478,7 @@ a.button.is-primary.small {
 
     margin-inline: 5px;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -489,7 +491,7 @@ a.button.is-primary.small {
 
     margin-inline: 5px;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -502,7 +504,7 @@ a.button.is-primary.small {
 
     margin-inline: 5px;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -515,7 +517,7 @@ a.button.is-primary.small {
 
     margin-inline: 5px;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -528,7 +530,7 @@ a.button.is-primary.small {
 
     margin-inline: 5px;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -571,7 +573,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 }
 
 
@@ -621,7 +623,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 
 }
@@ -646,7 +648,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 
 }
@@ -662,7 +664,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
 
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 
 }
@@ -677,7 +679,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 }
 
 
@@ -691,7 +693,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 }
 
 
@@ -709,7 +711,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -728,7 +730,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -748,7 +750,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -772,7 +774,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -791,7 +793,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -810,7 +812,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 }
 
@@ -825,7 +827,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 }
 
 .block.courseitem,
@@ -859,7 +861,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 
 }
@@ -874,7 +876,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 
 }
@@ -909,7 +911,7 @@ a.button.is-primary.small {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-white) !important;
+    color: var(--color-glass-global) !important;
 
 
 }
