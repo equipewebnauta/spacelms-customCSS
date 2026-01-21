@@ -189,6 +189,17 @@ body {
 
 /* #region BUTTON – LIQUID GLASS */
 
+.vibebp_myprofile a.button {
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2) !important;
+    padding: 1%;
+    border-radius: var(--glass-radius) !important;
+}
+
+
 a.button.is-primary.small {
 
     position: relative;
