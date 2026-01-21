@@ -59,9 +59,9 @@ body {
 }
 
 
-* largura */
+/* largura */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 9px;
 }
 
 /* trilho */
@@ -85,6 +85,7 @@ body {
     0 0 12px rgba(255,255,255,0.7),
     0 0 18px rgba(255,255,255,0.4),
     inset 0 0 6px rgba(255,255,255,0.8);
+    z-index: 9999;
 }
 
 /* hover — explode o brilho */
