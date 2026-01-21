@@ -110,9 +110,37 @@ body {
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2) !important;
-    padding: 1%; 
+    padding: 1%;
     border-radius: var(--glass-radius) !important;
     color: var(--color-white) !important;
+}
+
+
+
+.vibebp_myprofile input[type=color],
+.vibebp_myprofile input[type=date],
+.vibebp_myprofile input[type=datetime-local],
+.vibebp_myprofile input[type=datetime],
+.vibebp_myprofile input[type=email],
+.vibebp_myprofile input[type=month],
+.vibebp_myprofile input[type=number],
+.vibebp_myprofile input[type=password],
+.vibebp_myprofile input[type=search],
+.vibebp_myprofile input[type=tel],
+.vibebp_myprofile input[type=text],
+.vibebp_myprofile input[type=time],
+.vibebp_myprofile input[type=url],
+.vibebp_myprofile input[type=week],
+.vibebp_myprofile select,
+.vibebp_myprofile textarea {
+    padding: .5rem;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: gray !important;
 }
 
 
@@ -160,9 +188,9 @@ body {
 
 /* #region BUTTON – LIQUID GLASS */
 
-a.button.is-primary.small{
+a.button.is-primary.small {
 
- position: relative;
+    position: relative;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -189,14 +217,16 @@ a.button.is-primary.small{
 }
 
 
-.button,.is-primary,.active {
+.button,
+.is-primary,
+.active {
     position: relative;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
 
-    
+
     border-radius: var(--glass-radius) !important;
 
     /* BASE GLASS */
@@ -285,7 +315,7 @@ a.button.is-primary.small{
 .profile_menu .menu_bottom .menu_item {
     display: flex;
     align-items: center;
-    padding: 8px 12px;
+    padding: 8px 8px;
     background: var(--glass-item-bg) !important;
     border-radius: var(--glass-item-radius);
     cursor: pointer;
@@ -567,6 +597,9 @@ a.button.is-primary.small{
 .course_section,
 .vibe_vibe_course_free,
 .vibe_vibe_product,
+.course_block_wrap,
+.course_instructor_block,
+.wplms_courses_header,
 .vibe_vibe_partial_free_course,
 .vibe_vibe_course_apply,
 .next_curriculum_item,
@@ -658,8 +691,8 @@ a.button.is-primary.small{
 
 /* #region Trilhas  */
 
-.vibebp_clp{
- margin: 10px !important;
+.vibebp_clp {
+    margin: 10px !important;
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
@@ -676,9 +709,10 @@ a.button.is-primary.small{
 
 /* #region Trilhas  */
 
-.vibebp_clp,.vibebp_full_clp_wrapper{
- margin: 10px !important;
-   backdrop-filter: blur(var(--glass-blur)) !important;
+.vibebp_clp,
+.vibebp_full_clp_wrapper {
+    margin: 10px !important;
+    backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
@@ -695,9 +729,10 @@ a.button.is-primary.small{
 
 /* #region lista de desejos */
 
-.add_new_collection,.open_collection_wrapper{
- padding: 10px !important;
-     backdrop-filter: blur(var(--glass-blur)) !important;
+.add_new_collection,
+.open_collection_wrapper {
+    padding: 10px !important;
+    backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
@@ -718,9 +753,48 @@ a.button.is-primary.small{
 
 /* #region Ao vivo */
 
-.vibebp_jitsi_meeting,.vibebp_full_meeting_wrapper{
- padding: 2% !important;
-     backdrop-filter: blur(var(--glass-blur)) !important;
+.vibebp_jitsi_meeting,
+.vibebp_full_meeting_wrapper {
+    padding: 2% !important;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+}
+
+
+/* #region grupo */
+
+
+.vibebp_main_head,
+.new_group,
+.course_block,
+.batch-stats {
+    margin: 3px;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+}
+
+
+.new_group,
+.group_bottom,
+.manage,
+.group_avatar,
+.group_creation_steps,
+.elementor-container {
+    margin: 3px;
+    padding: 2% !important;
+    backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
@@ -732,3 +806,104 @@ a.button.is-primary.small{
 
 
 
+.block.courseitem {
+    margin: 3px;
+    padding: 2% !important;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+}
+
+.block.courseitem,
+.block_content {
+    background: transparent !important;
+
+}
+
+
+
+/* #endregion */
+
+
+
+/* #region Perfil */
+
+
+
+
+.bg-card,
+.elementor-alert,
+.profile_avatar_wrapper,
+.table_block,
+.vibebp_main_head,
+.vibebp_wc_address {
+    margin: 3px;
+    padding: 2% !important;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+
+}
+
+
+.message_block {
+    margin: 2% !important;
+    padding: 2% !important;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+
+}
+
+
+
+.message_left_right .message_list_left .messages .message_block.active:after {
+    border-radius: var(--glass-radius) !important;
+
+    /* BASE GLASS */
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+}
+
+
+
+
+
+
+
+.vicon-clip,
+.vicon-video-camera,
+.vicon-image,
+.newlabel_form,
+.search_results {
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+
+}
+
+
+
+
+/* #endregion */
