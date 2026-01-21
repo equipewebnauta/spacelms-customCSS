@@ -41,7 +41,8 @@ body {
 /* LIMPEZA DE FUNDOS */
 .vibebp_main,
 .profile_grid,
-.course_status .course_timeline {
+.course_status .course_timeline,
+.portal {
     background: transparent !important;
 }
 
@@ -597,7 +598,6 @@ a.button.is-primary.small {
 .course_section,
 .vibe_vibe_course_free,
 .vibe_vibe_product,
-.course_block_wrap,
 .course_instructor_block,
 .wplms_courses_header,
 .vibe_vibe_partial_free_course,
@@ -891,7 +891,8 @@ a.button.is-primary.small {
 .vicon-video-camera,
 .vicon-image,
 .newlabel_form,
-.search_results {
+.search_results,
+.login_val {
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
@@ -904,6 +905,8 @@ a.button.is-primary.small {
 }
 
 
-
+.portal_header {
+    margin: 2% !important;
+}
 
 /* #endregion */
