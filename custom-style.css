@@ -431,7 +431,7 @@ a.button.is-primary.small {
 
 }
 
-.profile_menu .menu_items .inicio {
+div.inicio.external_link {
 
     align-items: center !important;
 
