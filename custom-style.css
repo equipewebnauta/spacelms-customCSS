@@ -155,7 +155,7 @@ body {
 
 input::placeholder,
 textarea::placeholder {
-     color: gray !important;
+    color: var(--color-glass-global) !important;
 }
 
 
@@ -425,7 +425,7 @@ a.button.is-primary.small {
 
 .profile_menu .menu_items .bp-menu,
 .profile_menu .todos-cursos,
-.profile_menu  {
+.profile_menu .inicio {
 
     align-items: start;
 
