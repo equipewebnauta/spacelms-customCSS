@@ -36,6 +36,29 @@ body {
     overflow-x: hidden;
 }
 
+
+
+/* LIMPEZA DE FUNDOS */
+.vibebp_main,
+.profile_grid,
+.course_status .course_timeline {
+    background: transparent !important;
+}
+
+.vibebp_main * {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+
+.profile_menu * {
+    background: transparent !important;
+}
+
+
+
+
 /* GLASS SYSTEM */
 .glass {
     backdrop-filter: blur(var(--glass-blur));
@@ -82,12 +105,12 @@ body {
 .students_filter,
 .student_list,
 .download_stats_wrapper {
-    backdrop-filter: blur(var(--glass-blur));
-    -webkit-backdrop-filter: blur(var(--glass-blur));
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
-    border: 1px solid var(--glass-border-color);
-    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    padding: 1%;
+    border: 1px solid var(--glass-border-color) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2) !important;
+    padding: 1%; 
     border-radius: var(--glass-radius) !important;
     color: var(--color-white) !important;
 }
@@ -130,23 +153,6 @@ body {
     margin-top: 2%;
 }
 
-/* LIMPEZA DE FUNDOS */
-.vibebp_main,
-.profile_grid,
-.course_status .course_timeline {
-    background: transparent !important;
-}
-
-.vibebp_main * {
-    background: transparent !important;
-    background-color: transparent !important;
-    background-image: none !important;
-}
-
-
-.profile_menu * {
-    background: transparent !important;
-}
 
 
 
@@ -154,14 +160,43 @@ body {
 
 /* #region BUTTON – LIQUID GLASS */
 
-.button {
-    position: relative;
+a.button.is-primary.small{
+
+ position: relative;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
 
     padding: 10px 16px !important;
+    border-radius: var(--glass-radius) !important;
+
+    /* BASE GLASS */
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+
+
+
+    color: var(--color-white) !important;
+    text-decoration: none !important;
+    cursor: pointer;
+
+    transition: all 0.35s ease !important;
+    overflow: hidden;
+
+}
+
+
+.button,.is-primary,.active {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    
     border-radius: var(--glass-radius) !important;
 
     /* BASE GLASS */
@@ -528,6 +563,7 @@ body {
 .vibe_vibe_course_attendance_auto,
 .vibe_vibe_batches,
 .vibe_vibe_badge,
+.vibebp_main_header,
 .course_section,
 .vibe_vibe_course_free,
 .vibe_vibe_product,
@@ -618,3 +654,81 @@ body {
 
 
 /* #endregion  */
+
+
+/* #region Trilhas  */
+
+.vibebp_clp{
+ margin: 10px !important;
+    backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+}
+
+/* #endregion */
+
+
+
+/* #region Trilhas  */
+
+.vibebp_clp,.vibebp_full_clp_wrapper{
+ margin: 10px !important;
+   backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+}
+
+/* #endregion */
+
+
+
+
+/* #region lista de desejos */
+
+.add_new_collection,.open_collection_wrapper{
+ padding: 10px !important;
+     backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+}
+
+
+/* #endregion */
+
+
+
+
+
+
+
+/* #region Ao vivo */
+
+.vibebp_jitsi_meeting,.vibebp_full_meeting_wrapper{
+ padding: 2% !important;
+     backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    border-radius: var(--glass-radius) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
+    color: var(--color-white) !important;
+
+}
+
+
+
