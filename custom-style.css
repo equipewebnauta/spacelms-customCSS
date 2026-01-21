@@ -431,6 +431,14 @@ a.button.is-primary.small {
 
 }
 
+.profile_menu .menu_items .inicio {
+
+    align-items: center !important;
+
+}
+
+
+
 
 .vibebp_myprofile .profile_menu.active .menu_items>div:hover>div {
 
