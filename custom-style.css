@@ -7,8 +7,12 @@
     --glass-border-color: rgba(255, 255, 255, 0.3);
     --glass-radius: 12px;
 
-    --glass-shadow-1: inset 1px 1px 3px rgba(255, 255, 255, 0.3);
+    --glass-shadow-1: inset 1px 1px 3px rgba(255, 255, 255, 0.302);
     --glass-shadow-2: inset 0 0 5px rgba(255, 255, 255, 0.2);
+
+     transition:
+        --glass-bg 0.6s ease,
+        background-image 0.8s ease;
 
     --glass-item-bg: rgba(255, 255, 255, 0.1);
     --glass-item-bg-hover: rgba(255, 255, 255, 0.25);
@@ -17,6 +21,23 @@
     --color-white: #ffffff;
 
     --bg-image-url: url('http://spacedev.agenciawebnauta.com.br/wp-content/uploads/2026/01/walpaper.png');
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: var(--bg-image-url);
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    z-index: -1;
+}
+
+/* quando está em curso */
+html.course-active body::before {
+    opacity: 1;
 }
 
 /* BACKGROUND GLOBAL */
