@@ -144,6 +144,7 @@ body {
 .instructor_tabs,
 .ve_modal-content,
 .students_filter,
+.login_popup,
 .student_list,
 .download_stats_wrapper {
     backdrop-filter: blur(var(--glass-blur)) !important;
@@ -161,6 +162,44 @@ body {
     color: var(--color-glass-global) !important;
   
 }
+
+
+
+
+.course_heading{
+   backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+  
+
+    color: var(--color-glass-global) !important;
+}
+
+
+.course_progress  {
+   backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+  border-radius: 12px;
+
+    color: var(--color-glass-global) !important;
+}
+
+
+
+.course_status .course_timeline .course_heading .course_progress > span {
+    background: white !important;
+}
+
+
+
+.course_progress_wrapper .course_progress>span {
+    background: white !important;
+ 
+}
+
 
 
 
@@ -723,7 +762,7 @@ div.inicio.external_link {
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
-
+padding: 1% !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
     color: var(--color-glass-global) !important;
 
