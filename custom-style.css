@@ -1038,3 +1038,80 @@ div.inicio.external_link {
 }
 
 /* #endregion */
+
+
+
+
+/* #region Visualizar curso  */
+
+
+
+
+.course_heading{
+   backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+  
+
+    color: var(--color-glass-global) !important;
+}
+
+
+
+
+.course_header,.course_tab_content{
+ backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2) !important;
+    padding: 3%;
+    border-radius: var(--glass-radius) !important;
+
+
+}
+
+
+
+.curriculum_item{
+ backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+    box-shadow: var(--glass-shadow-1), var(--glass-shadow-2) !important;
+    padding: 3%;
+    border-radius: var(--glass-radius) !important;
+margin-block: 1% !important;
+
+
+}
+
+
+
+.course_progress  {
+   backdrop-filter: blur(var(--glass-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border-color) !important;
+  border-radius: 12px;
+
+    color: var(--color-glass-global) !important;
+}
+
+
+
+.course_status .course_timeline .course_heading .course_progress > span {
+    background: white !important;
+}
+
+
+
+.course_progress_wrapper .course_progress>span {
+    background: white !important;
+ 
+}
+
+
+
+/* #endregion */
