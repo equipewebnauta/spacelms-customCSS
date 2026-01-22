@@ -189,13 +189,13 @@ body {
 
 
 .course_status .course_timeline .course_heading .course_progress > span {
-    background: var(--color-glass-global) !important;
+    background: white !important;
 }
 
 
 
 .course_progress_wrapper .course_progress>span {
-    background: var(--color-glass-global) !important;
+    background: white !important;
  
 }
 
