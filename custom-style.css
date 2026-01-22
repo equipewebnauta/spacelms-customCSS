@@ -187,15 +187,16 @@ body {
 
 
 
-.course_status .course_timeline .course_heading .course_progress>span {
-    color: white !important;
+
+.course_status .course_timeline .course_heading .course_progress > span {
+    background: var(--color-glass-global) !important;
 }
 
 
 
 .course_progress_wrapper .course_progress>span {
-     color: white !important;
-
+    background: var(--color-glass-global) !important;
+ 
 }
 
 
