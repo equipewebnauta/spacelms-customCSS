@@ -164,6 +164,10 @@ body {
 
 }
 
+.vibebp_pointsbadges_wrapper .vibebp_lmsbadges_wrapper .wplms_lmsbadges_wrapper .wplms_all_lmsbadges .single_lmsbadge.inactive {
+    filter: none !important;
+}
+
 
 
 
@@ -793,10 +797,17 @@ div.inicio.external_link {
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
-    padding: 1% !important;
+    padding: 3% !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
     color: var(--color-glass-global) !important;
 
+
+}
+
+
+
+.course_content_content{
+border-radius: 12px !important;
 
 }
 
@@ -1149,10 +1160,11 @@ div.inicio.external_link {
 
 @media (max-width: 480px) {
 
+
+    /* Ajuste sidebar inferior  */
+
     .profile_menu {
         margin: 0 !important;
-
-
 
     }
 
@@ -1166,5 +1178,37 @@ div.inicio.external_link {
 
 
 
+    /* Gerenciar Cursos  */
+
+    .vibebp_main .wplms_manage_courses_wrapper .wplms_courses_header .vibebp_form_field.no_border {
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+
+
+
+
+    /* Dashboard inicial  */
+
+    .dashboard {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+        gap: 20px;
+        height: 100vh;
+    }
+
+
+
+    @media (max-width: 480px) {
+
+        .admin-bar .vibebp_myprofile .vibebp_sidebars .vibebp_left_sidebar_wrapper,
+        .vibebp_myprofile .vibebp_sidebars .vibebp_left_sidebar_wrapper {
+            width: calc(100%);
+            margin: 0;
+        }
+    }
 
 }
