@@ -144,6 +144,8 @@ body {
 .ve_modal-content,
 .students_filter,
 .login_popup,
+.vibebp_cart_wrapper,
+.vbp_error,
 .reviewpopup_content,
 .student_list,
 .download_stats_wrapper,
@@ -806,8 +808,8 @@ div.inicio.external_link {
 
 
 
-.course_content_content{
-border-radius: 12px !important;
+.course_content_content {
+    border-radius: 12px !important;
 
 }
 
@@ -1210,5 +1212,18 @@ border-radius: 12px !important;
             margin: 0;
         }
     }
+
+
+
+
+    /* Visualização do aluno  */
+
+
+    .course_content_content {
+        padding: 5% !important;
+
+    }
+
+
 
 }
