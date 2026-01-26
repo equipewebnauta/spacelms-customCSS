@@ -96,6 +96,39 @@ body {
 
 
 
+/* Responsivo */
+
+
+.vibebp_main .wplms_manage_courses_wrapper .wplms_courses_header {
+    display: flex !important;
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    .profile_menu {
+        margin: 0 !important;
+
+
+
+    }
+
+
+    .profile_menu .menu_items .bp-menu,
+    .profile_menu .todos-cursos,
+    .profile_menu .inicio,
+    .profile_menu .menu_bottom .menu_item {
+        margin: 2px;
+    }
+
+
+
+
+}
+
+
 
 /* GLASS SYSTEM */
 .glass {
@@ -143,6 +176,7 @@ body {
 .ve_modal-content,
 .students_filter,
 .login_popup,
+.reviewpopup_content,
 .student_list,
 .download_stats_wrapper {
     backdrop-filter: blur(var(--glass-blur)) !important;
@@ -182,14 +216,14 @@ body {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: 12px;
 
-   
+
 }
 
 
 
 
 
-.course_status .course_timeline .course_heading .course_progress > span {
+.course_status .course_timeline .course_heading .course_progress>span {
     background: white !important;
 }
 
@@ -197,7 +231,7 @@ body {
 
 .course_progress_wrapper .course_progress>span {
     background: white !important;
- 
+
 }
 
 
@@ -570,12 +604,12 @@ div.inicio.external_link {
 
 
 .vibebp_myprofile .profile_grid .profile_grid_header .start_block>span>span+span {
-   
+
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
-    
+
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
     color: var(--color-glass-global) !important;
 }
@@ -883,10 +917,6 @@ div.inicio.external_link {
 
 
 
-
-
-
-
 /* #region Ao vivo */
 
 .vibebp_jitsi_meeting,
@@ -901,6 +931,8 @@ div.inicio.external_link {
     color: var(--color-glass-global) !important;
 
 }
+
+/* #endregion */
 
 
 /* #region grupo */
@@ -967,8 +999,6 @@ div.inicio.external_link {
 
 
 /* #region Perfil */
-
-
 
 
 .bg-card,
@@ -1053,14 +1083,12 @@ div.inicio.external_link {
 /* #region Visualizar curso  */
 
 
-
-
-.course_heading{
-   backdrop-filter: blur(var(--glass-blur)) !important;
+.course_heading {
+    backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
-  
+
 
     color: var(--color-glass-global) !important;
 }
@@ -1068,8 +1096,9 @@ div.inicio.external_link {
 
 
 
-.course_header,.course_tab_content{
- backdrop-filter: blur(var(--glass-blur)) !important;
+.course_header,
+.course_tab_content {
+    backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
@@ -1082,34 +1111,34 @@ div.inicio.external_link {
 
 
 
-.curriculum_item{
- backdrop-filter: blur(var(--glass-blur)) !important;
+.curriculum_item {
+    backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2) !important;
     padding: 3%;
     border-radius: var(--glass-radius) !important;
-margin-block: 1% !important;
+    margin-block: 1% !important;
 
 
 }
 
 
 
-.course_progress  {
-   backdrop-filter: blur(var(--glass-blur)) !important;
+.course_progress {
+    backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
     border: 1px solid var(--glass-border-color) !important;
-  border-radius: 12px;
+    border-radius: 12px;
 
     color: var(--color-glass-global) !important;
 }
 
 
 
-.course_status .course_timeline .course_heading .course_progress > span {
+.course_status .course_timeline .course_heading .course_progress>span {
     background: white !important;
 }
 
@@ -1117,7 +1146,7 @@ margin-block: 1% !important;
 
 .course_progress_wrapper .course_progress>span {
     background: white !important;
- 
+
 }
 
 
