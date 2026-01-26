@@ -96,38 +96,6 @@ body {
 
 
 
-/* Responsivo */
-
-
-.vibebp_main .wplms_manage_courses_wrapper .wplms_courses_header {
-    display: flex !important;
-
-}
-
-
-
-@media (max-width: 480px) {
-
-    .profile_menu {
-        margin: 0 !important;
-
-
-
-    }
-
-
-    .profile_menu .menu_items .bp-menu,
-    .profile_menu .todos-cursos,
-    .profile_menu .inicio,
-    .profile_menu .menu_bottom .menu_item {
-        margin: 2px;
-    }
-
-
-
-
-}
-
 
 
 /* GLASS SYSTEM */
@@ -178,7 +146,8 @@ body {
 .login_popup,
 .reviewpopup_content,
 .student_list,
-.download_stats_wrapper {
+.download_stats_wrapper,
+.field_description {
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
@@ -1152,3 +1121,50 @@ div.inicio.external_link {
 
 
 /* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsivo */
+
+
+.vibebp_main .wplms_manage_courses_wrapper .wplms_courses_header {
+    display: flex !important;
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    .profile_menu {
+        margin: 0 !important;
+
+
+
+    }
+
+
+    .profile_menu .menu_items .bp-menu,
+    .profile_menu .todos-cursos,
+    .profile_menu .inicio,
+    .profile_menu .menu_bottom .menu_item {
+        margin: 2px;
+    }
+
+
+
+
+}
