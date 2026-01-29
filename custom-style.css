@@ -31,7 +31,7 @@ body {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-    background-blend-mode: color-dodge;
+    /* background-blend-mode: color-dodge; */
     color: white !important;
     overflow-x: hidden;
 }
