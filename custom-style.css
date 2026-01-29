@@ -5,16 +5,16 @@
     --glass-blur: 30px;
     --glass-bg: rgba(255, 255, 255, 0.046);
     --glass-border-color: rgba(255, 255, 255, 0.12);
-    --glass-radius: 12px;
+    --glass-radius: 16px;
 
     /* --glass-shadow-1: inset 1px 1px 3px rgba(255, 255, 255, 0.302);
     --glass-shadow-2: inset 0 0 5px rgba(255, 255, 255, 0.2); */
 
     --glass-item-bg: rgba(255, 255, 255, 0.1);
     --glass-item-bg-hover: rgba(255, 255, 255, 0.25);
-    --glass-item-radius: 16px;
+    --glass-item-radius: 8px;
 
-    /*--color-glass-global: #ffffff;*/
+    --color-glass-global: #ffffff;
 
 }
 
@@ -31,7 +31,7 @@ body {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-    /*color: white !important;*/
+    color: white !important;
     overflow-x: hidden;
 }
 
