@@ -14,7 +14,7 @@
     --glass-item-bg-hover: rgba(255, 255, 255, 0.25);
     --glass-item-radius: 16px;
 
-    --color-glass-global: #ffffff;
+    /*--color-glass-global: #ffffff;*/
 
 }
 
@@ -31,7 +31,7 @@ body {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-    color: white !important;
+    /*color: white !important;*/
     overflow-x: hidden;
 }
 
