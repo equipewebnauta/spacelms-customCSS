@@ -19,6 +19,10 @@
 }
 
 /* BACKGROUND GLOBAL */
+html {
+    background-color: #691191;
+}
+
 html,
 body {
     width: 100%;
@@ -31,6 +35,7 @@ body {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
+    mix-blend-mode:color-dodge ;
     color: white !important;
     overflow-x: hidden;
 }
