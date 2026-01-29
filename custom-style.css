@@ -2,7 +2,7 @@
 
 /* DESIGN TOKENS */
 :root {
-    --glass-blur: 50px;
+    --glass-blur: 30px;
     --glass-bg: rgba(255, 255, 255, 0.046);
     --glass-border-color: rgba(255, 255, 255, 0.08);
     --glass-radius: 12px;
