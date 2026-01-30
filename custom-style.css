@@ -26,7 +26,7 @@ body {
     margin: 0;
     padding: 0;
 
-    /* background-image: var(--bg-image-url) !important; */
+    background-image: var(--bg-image-url) !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -37,11 +37,13 @@ body {
 }
 
 .vibebp_myprofile {
-    background-image: var(--bg-image-url) !important; 
+    background-image: var(--bg-image-url) !important;
+    background-color: var(--dark);
     background-blend-mode: color-dodge;
 }
 
 .vibebp_myprofile.dark_theme {
+    background-color: var(--dark);
     background-blend-mode: luminosity;
 }
 
