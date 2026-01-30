@@ -39,7 +39,7 @@ body {
 .vibebp_myprofile {
     background-image: var(--bg-image-url) !important;
     background-color: var(--body);
-    background-blend-mode: multiply;
+    background-blend-mode: luminosity;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -48,7 +48,7 @@ body {
 
 .vibebp_myprofile.dark_theme {
     background-color: var(--body);
-    background-blend-mode: color-burn;
+    background-blend-mode: soft-light;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
