@@ -27,6 +27,7 @@ body {
     padding: 0;
 
     background-image: var(--bg-image-url) !important;
+    background-color: var(--body);
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
