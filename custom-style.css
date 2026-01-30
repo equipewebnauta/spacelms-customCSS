@@ -44,14 +44,14 @@ body {
 .course_status .course_timeline,
 .portal {
     background: transparent !important;
-    color: var(--color-glass-global) !important;
-}
+    /* color: var(--color-glass-global) !important;*/
+} 
 
 .vibebp_main * {
     background: transparent !important;
     background-color: transparent !important;
     background-image: none !important;
-    color: var(--color-glass-global) !important;
+    /* color: var(--color-glass-global) !important; */
 }
 
 
@@ -158,7 +158,7 @@ body {
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2) !important;
     padding: 1%;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-glass-global) !important;
+    /* color: var(--color-glass-global) !important; */
 }
 
 
@@ -181,7 +181,7 @@ body {
     border: 1px solid var(--glass-border-color) !important;
 
 
-    color: var(--color-glass-global) !important;
+    /* color: var(--color-glass-global) !important; */
 }
 
 
@@ -214,7 +214,7 @@ body {
 
 .login_popup label,
 .login_popup label * {
-    color: var(--color-glass-global) !important;
+    /* color: var(--color-glass-global) !important; */
 }
 
 
@@ -223,7 +223,7 @@ body {
 .login_popup.elegance .login_popup_content,
 .login_popup.simple,
 .login_popup_content {
-    color: var(--color-glass-global) !important;
+    /* color: var(--color-glass-global) !important; */
 }
 
 
@@ -279,7 +279,7 @@ textarea::placeholder {
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
     padding: 1%;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-glass-global) !important;
+    /* color: var(--color-glass-global) !important; */
 }
 
 /* INPUT E SELECT BASE */
@@ -467,7 +467,7 @@ a.button.is-primary.small {
 }
 
 .profile_menu span span:last-child {
-    color: var(--color-glass-global);
+    /* color: var(--color-glass-global); */
     font-weight: 500;
 }
 
@@ -587,7 +587,7 @@ div.inicio.external_link {
     border: 1px solid var(--glass-border-color) !important;
 
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-glass-global) !important;
+    /* color: var(--color-glass-global) !important; */
 }
 
 
@@ -601,7 +601,7 @@ div.inicio.external_link {
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
     padding: 1% !important;
     border-radius: var(--glass-radius) !important;
-    color: var(--color-glass-global) !important;
+    /* color: var(--color-glass-global) !important; */
 }
 
 
@@ -711,7 +711,7 @@ div.inicio.external_link {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-glass-global) !important;
+    /* color: var(--color-glass-global) !important; */
 }
 
 
@@ -824,7 +824,7 @@ div.inicio.external_link {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-glass-global) !important;
+    /* color: var(--color-glass-global) !important;*/
 }
 
 
@@ -838,8 +838,8 @@ div.inicio.external_link {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-glass-global) !important;
-}
+    /* color: var(--color-glass-global) !important;*/
+} 
 
 
 
@@ -966,8 +966,8 @@ div.inicio.external_link {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: var(--glass-radius) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2);
-    color: var(--color-glass-global) !important;
-}
+    /* color: var(--color-glass-global) !important;*/
+} 
 
 .block.courseitem,
 .block_content {
@@ -1073,8 +1073,8 @@ div.inicio.external_link {
     border: 1px solid var(--glass-border-color) !important;
 
 
-    color: var(--color-glass-global) !important;
-}
+    /* color: var(--color-glass-global) !important;*/
+} 
 
 
 
@@ -1116,8 +1116,8 @@ div.inicio.external_link {
     border: 1px solid var(--glass-border-color) !important;
     border-radius: 12px;
 
-    color: var(--color-glass-global) !important;
-}
+    /* color: var(--color-glass-global) !important;*/
+} 
 
 
 
