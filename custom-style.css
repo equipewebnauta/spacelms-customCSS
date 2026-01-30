@@ -26,17 +26,24 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: var(--bg-image-url) !important;
+    /* background-image: var(--bg-image-url) !important; */
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
     /* background-blend-mode: color-dodge; */
-    color: white !important;
+    /* color: white !important; */
     overflow-x: hidden;
 }
 
+.vibebp_myprofile {
+    background-image: var(--bg-image-url) !important; 
+    background-blend-mode: color-dodge;
+}
 
+.vibebp_myprofile.dark_theme {
+    background-blend-mode: luminosity;
+}
 
 /* LIMPEZA DE FUNDOS */
 .vibebp_main,
