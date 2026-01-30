@@ -463,7 +463,7 @@ a.button.is-primary.small {
 }
 
 .profile_menu svg {
-    fill: var(--color-glass-global);
+    /* fill: var(--color-glass-global); */
 }
 
 .profile_menu span span:last-child {
