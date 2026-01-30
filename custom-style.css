@@ -40,11 +40,19 @@ body {
     background-image: var(--bg-image-url) !important;
     background-color: var(--body);
     background-blend-mode: multiply;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
 
 .vibebp_myprofile.dark_theme {
     background-color: var(--body);
-    background-blend-mode: color-dodge;
+    background-blend-mode: color-color-burn;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
 
 /* LIMPEZA DE FUNDOS */
