@@ -35,7 +35,7 @@ body {
     /* background-blend-mode: color-dodge; */
     /* color: white !important; */
     overflow-x: hidden;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease;
 }
 
 .vibebp_myprofile {
@@ -46,7 +46,7 @@ body {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease;
 }
 
 .vibebp_myprofile.dark_theme {
