@@ -28,7 +28,7 @@ body {
 
     background-image: var(--bg-image-url) !important;
     background-color: var(--body);
-    background-blend-mode: luminosity;
+    background-blend-mode: luminosity; 
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
