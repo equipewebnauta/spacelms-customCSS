@@ -51,7 +51,7 @@ body {
 
 .vibebp_myprofile.dark_theme {
     background-color: var(--body);
-    background-blend-mode: soft-light;
+    background-blend-mode: color-burn;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
