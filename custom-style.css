@@ -511,6 +511,8 @@ a.button.is-primary.small {
 
 .vibebp_myprofile .profile_menu.active .menu_items>div{
     align-items: flex-start;
+    padding-left: var(--padding-default);
+    padding-right: var(--padding-default);
 }
 
 
