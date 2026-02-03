@@ -47,7 +47,8 @@ body {
     transition: opacity 0.5s ease;
 }
 
-body::before {
+body::before,
+.vibebp_myprofile::before {
     position: fixed;
     content: '';
     top: 0;
