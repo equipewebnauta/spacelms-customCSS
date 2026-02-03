@@ -607,7 +607,7 @@ div.inicio.external_link {
 
 /* #region Editar curso  */
 
-.vibe_course_cat{
+.vibe_course-cat{
     border: 1px solid var(--glass-border-color);
     padding: var(--padding-default);
     border-radius: var(--border-radius-default);
