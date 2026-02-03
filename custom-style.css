@@ -469,7 +469,8 @@ a.button.is-primary.small {
     color: var(--text) !important;
 }
 
-.vibebp_myprofile .profile_menu .menu_items>div .icon path, 
+.vibebp_myprofile .profile_menu .menu_items>div .icon path,
+.vibebp_myprofile .profile_menu .menu_items>div span svg path,
 .menu_bottom .menu_item svg path, 
 .menu_bottom .menu_item svg rect{
     fill: var(--text)!important;
