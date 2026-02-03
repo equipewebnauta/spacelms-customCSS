@@ -16,6 +16,14 @@
 
     /* --color-glass-global: #ffffff; */
 
+    --padding-default: 16px;
+    --padding-default-item: 8px;
+
+    --border-radius-default: 16px;
+    --border-radius-default-item: 8px;
+
+    --background-glass-item: rgba(255,255,255,0.12);
+
 }
 
 /* BACKGROUND GLOBAL */
@@ -599,6 +607,19 @@ div.inicio.external_link {
 
 /* #region Editar curso  */
 
+.vibe_course_cat{
+    border: 1px solid var(--glass-border-color);
+    padding: var(--padding-default);
+    border-radius: var(--border-radius-default);
+}
+
+.taxonomy_field .term_select .term_select_label,
+.taxonomy_field .term_select>span:not(.vicon){
+    padding: var(--padding-default-item);
+    border: 1px solid var(--glass-border-color);
+    border-radius: var(--border-radius-default-item);
+    background-color: var(--background-glass-item)!important;
+}
 
 
 .vibebp_myprofile .profile_grid .profile_grid_header .start_block>span>span+span {
