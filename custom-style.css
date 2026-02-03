@@ -488,7 +488,7 @@ a.button.is-primary.small {
     margin-right: 0!important;
 }
 
-.vibebp_myprofile .profile_menu .menu_items>div .icon
+.vibebp_myprofile .profile_menu .menu_items>div .icon,
 .vibebp_myprofile .profile_menu.active .menu_items>div .icon{
     margin-left: 0!important;
 }
