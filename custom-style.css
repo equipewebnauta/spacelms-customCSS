@@ -471,8 +471,8 @@ a.button.is-primary.small {
 
 .vibebp_myprofile .profile_menu .menu_items>div .icon path,
 .vibebp_myprofile .profile_menu .menu_items>div span svg path,
-.menu_bottom .menu_item svg path, 
-.menu_bottom .menu_item svg rect{
+#vibebp_member .vibebp_myprofile .profile_menu .menu_bottom .menu_item svg path, 
+#vibebp_member .vibebp_myprofile .profile_menu .menu_bottom .menu_item svg rect{
     fill: var(--text)!important;
 }
 
