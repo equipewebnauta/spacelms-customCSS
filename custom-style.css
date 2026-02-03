@@ -484,8 +484,17 @@ a.button.is-primary.small {
 
 .profile_menu .menu_bottom .menu_item svg,
 .vibebp_myprofile .profile_menu .menu_items>div .icon {
-    /* margin-left: 0!important; */
+
     margin-right: 0!important;
+}
+
+.vibebp_myprofile .profile_menu.active .menu_items>div .icon{
+    margin-left: 0!important;
+}
+
+.vibebp_myprofile .profile_menu.active .menu_items,
+.vibebp_myprofile .profile_menu.active .menu_bottom{
+    width: 100%;
 }
 
 .vibebp_myprofile .profile_menu .menu_items>div span{
