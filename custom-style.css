@@ -47,6 +47,17 @@ body {
     transition: opacity 0.5s ease;
 }
 
+body::before {
+    position: fixed;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark);
+    opacity: .32;
+}
+
 .vibebp_myprofile {
     background-image: var(--bg-image-url) !important;
     background-color: var(--body);
