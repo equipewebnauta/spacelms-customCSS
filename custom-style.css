@@ -469,6 +469,12 @@ a.button.is-primary.small {
     color: var(--text) !important;
 }
 
+.vibebp_myprofile .profile_menu .menu_items>div path, 
+.menu_bottom .menu_item svg path, 
+.menu_bottom .menu_item svg rect{
+    fill: var(--text)!important;
+}
+
 
 /* #endregion ================== CONFIGURAÇÕES PADRÕES ================== */
 
