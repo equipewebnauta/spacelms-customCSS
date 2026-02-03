@@ -508,6 +508,10 @@ a.button.is-primary.small {
     align-items: center;
 }
 
+.vibebp_myprofile .profile_menu.active .menu_items>div{
+    align-items: flex-start;
+}
+
 
 /* #endregion ================== CONFIGURAÇÕES PADRÕES ================== */
 
