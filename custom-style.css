@@ -482,7 +482,7 @@ a.button.is-primary.small {
     width: 16px;
 }
 
-.profile_menu .menu_bottom .menu_item svg
+.profile_menu .menu_bottom .menu_item svg,
 .vibebp_myprofile .profile_menu .menu_items>div .icon {
     margin-left: 0!important;
     margin-right: 0!important;
