@@ -478,7 +478,8 @@ a.button.is-primary.small {
 }
 
 #vibebp_member .vibebp_myprofile .profile_menu .menu_bottom .menu_item svg,
-.vibebp_myprofile .profile_menu .menu_items>div span svg{
+.vibebp_myprofile .profile_menu .menu_items>div span svg
+.vibebp_myprofile .profile_menu.active .menu_items .inicio.external_link .menu_item_undefined{
     width: 16px;
 }
 
@@ -495,7 +496,8 @@ a.button.is-primary.small {
 
 .vibebp_myprofile .profile_menu.active .menu_items,
 .vibebp_myprofile .profile_menu.active .menu_bottom,
-.vibebp_myprofile .profile_menu.active .menu_items .bp-profile-nav .menu_item_profile{
+.vibebp_myprofile .profile_menu.active .menu_items .bp-profile-nav .menu_item_profile,
+.vibebp_myprofile .profile_menu.active .menu_items .inicio.external_link .menu_item_undefined{
     width: 100%;
 }
 
@@ -525,6 +527,12 @@ a.button.is-primary.small {
     height: initial;
     padding-top: var(--padding-default);
     padding-bottom: var(--padding-default-item);
+}
+
+.vibebp_myprofile .profile_menu.active .menu_items .inicio.external_link .vicon-new-window:before{
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 8px;
 }
 
 /* #endregion ================== CONFIGURAÇÕES PADRÕES ================== */
