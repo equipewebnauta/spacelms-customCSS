@@ -462,6 +462,11 @@ a.button.is-primary.small {
 /* #endregion BUTTON – LIQUID GLASS */
 
 
+/* #region SIDEBAR PRIMARIA */
+.vibebp_myprofile .profile_menu .menu_items>div, 
+.vibebp_myprofile .profile_menu .menu_bottom .menu_item{
+    color: var(--text) !important;
+}
 
 
 /* #endregion ================== CONFIGURAÇÕES PADRÕES ================== */
