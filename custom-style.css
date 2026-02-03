@@ -521,6 +521,10 @@ a.button.is-primary.small {
 }
 
 
+.vibebp_myprofile .profile_menu.active .menu_items .bp-profile-nav:hover{
+    height: initial;
+}
+
 /* #endregion ================== CONFIGURAÇÕES PADRÕES ================== */
 
 
