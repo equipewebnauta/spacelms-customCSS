@@ -494,7 +494,8 @@ a.button.is-primary.small {
 }
 
 .vibebp_myprofile .profile_menu.active .menu_items,
-.vibebp_myprofile .profile_menu.active .menu_bottom{
+.vibebp_myprofile .profile_menu.active .menu_bottom,
+.vibebp_myprofile .profile_menu.active .menu_items .bp-profile-nav .menu_item_profile{
     width: 100%;
 }
 
@@ -507,6 +508,10 @@ a.button.is-primary.small {
     width: 100%;
     height: 40px;
     align-items: center;
+}
+
+.vibebp_myprofile .profile_menu.active .menu_items>div{
+    height: 48px;
 }
 
 .vibebp_myprofile .profile_menu.active .menu_items>div{
