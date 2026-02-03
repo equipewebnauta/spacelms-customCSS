@@ -464,7 +464,8 @@ a.button.is-primary.small {
 
 /* #region SIDEBAR PRIMARIA */
 .vibebp_myprofile .profile_menu .menu_items>div span, 
-.vibebp_myprofile .profile_menu .menu_bottom .menu_item{
+.vibebp_myprofile .profile_menu .menu_bottom .menu_item,
+.vibebp_myprofile .profile_menu .menu_items .bp-menu{
     color: var(--text) !important;
 }
 
