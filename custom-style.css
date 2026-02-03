@@ -478,7 +478,7 @@ a.button.is-primary.small {
 }
 
 #vibebp_member .vibebp_myprofile .profile_menu .menu_bottom .menu_item svg,
-.vibebp_myprofile .profile_menu .menu_items>div span svg
+.vibebp_myprofile .profile_menu .menu_items>div span svg,
 .vibebp_myprofile .profile_menu.active .menu_items .inicio.external_link .menu_item_undefined{
     width: 16px;
 }
@@ -533,6 +533,8 @@ a.button.is-primary.small {
     font-size: 16px;
     padding-left: 0;
     padding-right: 8px;
+    position: relative;
+    left: 4px;
 }
 
 /* #endregion ================== CONFIGURAÇÕES PADRÕES ================== */
