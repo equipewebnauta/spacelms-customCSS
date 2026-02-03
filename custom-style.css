@@ -464,8 +464,9 @@ a.button.is-primary.small {
 
 /* #region SIDEBAR PRIMARIA */
 .vibebp_myprofile .profile_menu .menu_items>div span, 
-.vibebp_myprofile .profile_menu .menu_bottom .menu_item,
-.vibebp_myprofile .profile_menu .menu_items .bp-menu{
+.vibebp_myprofile .profile_menu .menu_items>div span svg path,
+.vibebp_myprofile .profile_menu .menu_items .bp-menu,
+#vibebp_member .vibebp_myprofile .profile_menu .menu_bottom .menu_item{
     color: var(--text) !important;
 }
 
@@ -474,6 +475,11 @@ a.button.is-primary.small {
 #vibebp_member .vibebp_myprofile .profile_menu .menu_bottom .menu_item svg path, 
 #vibebp_member .vibebp_myprofile .profile_menu .menu_bottom .menu_item svg rect{
     fill: var(--text)!important;
+}
+
+#vibebp_member .vibebp_myprofile .profile_menu .menu_bottom .menu_item svg,
+.vibebp_myprofile .profile_menu .menu_items>div span svg{
+    width: 16px;
 }
 
 
