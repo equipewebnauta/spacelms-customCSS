@@ -488,6 +488,7 @@ a.button.is-primary.small {
     margin-right: 0!important;
 }
 
+.vibebp_myprofile .profile_menu .menu_items>div .icon
 .vibebp_myprofile .profile_menu.active .menu_items>div .icon{
     margin-left: 0!important;
 }
@@ -504,7 +505,7 @@ a.button.is-primary.small {
 .vibebp_myprofile .profile_menu .menu_items>div{
     padding: 0;
     width: 100%;
-    height: 32px;
+    height: 40px;
     align-items: center;
 }
 
