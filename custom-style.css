@@ -471,7 +471,7 @@ a.button.is-primary.small,
     padding: 0;
 }
 
-.mycourses_access_tabs .link{
+.vibebp_myprofile .mycourses_header .mycourses_access_tabs .link{
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     /* background: var(--primary)!important; */
@@ -485,6 +485,9 @@ a.button.is-primary.small,
 
     transition: all 0.35s ease;
     overflow: hidden;
+
+    display: block;
+    min-height: 56px;
 }
 
 @media (max-width:1050px){
