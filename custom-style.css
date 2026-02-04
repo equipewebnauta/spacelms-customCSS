@@ -474,20 +474,49 @@ a.button.is-primary.small,
 .vibebp_myprofile .mycourses_header .mycourses_access_tabs .link{
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
-    /* background: var(--primary)!important; */
     border: 1px solid var(--glass-border-color) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2) !important;
-    padding: 22px 8px;
+    padding: 12px 8px;
     border-radius: var(--border-radius-default-item);
-
     text-decoration: none;
     cursor: pointer;
-
     transition: all 0.35s ease;
     overflow: hidden;
-
     display: block;
-    min-height: 56px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.vibebp_myprofile .mycourses_header .mycourses_access_tabs .link::after{
+    display: none;
+}
+
+/* REFLEXO LIQUID */
+.vibebp_myprofile .mycourses_header .mycourses_access_tabs .link::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(120deg,
+            transparent,
+            rgba(255, 255, 255, 0.25),
+            transparent) !important;
+
+    opacity: 0;
+    transition: opacity 0.4s ease !important;
+    pointer-events: none;
+}
+
+/* HOVER */
+.vibebp_myprofile .mycourses_header .mycourses_access_tabs .link:hover {
+    transform: translateY(-1px) scale(1.05) !important;
+    /* background: var(--glass-item-bg-hover) !important; */
+
+}
+
+.vibebp_myprofile .mycourses_header .mycourses_access_tabs .link:hover::before {
+    opacity: 1 !important;
 }
 
 @media (max-width:1050px){
