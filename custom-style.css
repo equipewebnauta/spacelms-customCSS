@@ -475,7 +475,7 @@ a.button.is-primary.small,
     .vibebp_myprofile .mycourses_header{
         padding: var(--padding-default);
     }
-    
+
     .vibebp_myprofile .mycourses_header,
     .vibebp_myprofile .mycourses_header>div{
         flex-direction: column!important;
@@ -483,7 +483,7 @@ a.button.is-primary.small,
     }
 
     .vibebp_myprofile .mycourses_header>div>*{
-        max-width: initial;
+        max-width: initial!important;
         width: 100%;
         padding: 0;
         margin: 0;
