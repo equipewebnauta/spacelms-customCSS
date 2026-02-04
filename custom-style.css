@@ -427,7 +427,7 @@ a.button.is-primary.small,
 
 /* #endregion BUTTON – LIQUID GLASS */
 
-/* #region BUTTON SEARCH RESULTS */
+/* #region BUTTON SEARCH RESULTS E CATEGORIAS */
 .vibebp_main .searchbox .vicon {
     padding: 10px;
     margin-right: 0;
@@ -448,7 +448,19 @@ a.button.is-primary.small,
     border: none!important;
 }
 
-/* #endregion BUTTON SEARCH RESULTS */
+.vibebp_myprofile .mycourses_header .vibebp_form_field{
+    width: 50%;
+}
+
+.vibebp_myprofile .mycourses_header select{
+    max-width: initial;
+}
+
+.vibebp_myprofile .mycourses_header>div>select{
+    flex: 1 0 50%;
+}
+
+/* #endregion BUTTON SEARCH RESULTS E CATEGORIAS */
 
 
 /* #region SIDEBAR PRIMARIA */
