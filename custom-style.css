@@ -474,6 +474,7 @@ a.button.is-primary.small,
 @media (max-width:1050px){
     .vibebp_myprofile .mycourses_header{
         padding: var(--padding-default);
+        position: static;
     }
 
     .vibebp_myprofile .mycourses_header,
