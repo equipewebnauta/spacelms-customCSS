@@ -670,6 +670,12 @@ a.button.is-primary.small,
     padding-right: 1.5rem;
 }
 
+@media(max-width: 480px){
+    #vibebp_member .vibebp_myprofile .profile_grid{
+        padding-left: 1.5rem;
+    }
+}
+
 @media(max-width: 1280px){
     body.withsidebar.leftsidebar_minimised .vibebp_left_sidebar_wrapper{
         display: block;
