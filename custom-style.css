@@ -437,7 +437,7 @@ a.button.is-primary.small {
 /* HOVER */
 .button:hover {
     transform: translateY(-1px) scale(1.05) !important;
-    background: var(--glass-item-bg-hover) !important;
+    /* background: var(--glass-item-bg-hover) !important; */
 
 }
 
