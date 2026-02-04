@@ -464,7 +464,7 @@ a.button.is-primary.small,
 .vibebp_myprofile .mycourses_header>div {
     display: flex;
     flex-direction: row !important;
-    gap: 8px;
+    gap: 16px;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: nowrap;
