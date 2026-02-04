@@ -385,8 +385,7 @@ a.button.is-primary.small,
 
 
 /* REFLEXO LIQUID */
-.button::before,
-.vibebp_main .searchbox .vicon::before {
+.button::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -408,7 +407,6 @@ a.button.is-primary.small,
 
 }
 
-.vibebp_main .searchbox .vicon:hover::before,
 .button:hover::before {
     opacity: 1 !important;
 }
@@ -439,6 +437,7 @@ a.button.is-primary.small,
     color: var(--e-global-color-primary);
     margin-left: 8px;
     cursor: pointer;
+    transition: all 0.35s ease
 }
 
 .vibebp_main .searchbox .vicon:hover{
