@@ -471,6 +471,13 @@ a.button.is-primary.small,
     padding: 0;
 }
 
+@media (max-width:1050px){
+    .vibebp_myprofile .mycourses_header,
+    .vibebp_myprofile .mycourses_header>div{
+        flex-direction: column!important;
+    }
+}
+
 /* #endregion BUTTON SEARCH RESULTS E CATEGORIAS */
 
 
