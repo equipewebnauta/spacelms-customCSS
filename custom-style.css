@@ -557,6 +557,10 @@ a.button.is-primary.small {
     }
 }
 
+.vibebp_myprofile .profile_grid .profile_grid_header .start_block>span{
+    display: none;
+}
+
 /* #endregion ================== CONFIGURAÇÕES PADRÕES ================== */
 
 
