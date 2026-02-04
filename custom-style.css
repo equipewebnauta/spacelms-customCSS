@@ -551,6 +551,12 @@ a.button.is-primary.small {
     max-height: 96vh;
 }
 
+@media (max-width: 480px) {
+    .vibebp_myprofile .profile_menu .menu_items>div span {
+        margin-right: 0px;
+    }
+}
+
 /* #endregion ================== CONFIGURAÇÕES PADRÕES ================== */
 
 
