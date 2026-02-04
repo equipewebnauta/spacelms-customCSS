@@ -471,6 +471,10 @@ a.button.is-primary.small,
     padding: 0;
 }
 
+.vibebp_myprofile .mycourses_header .mycourses_access_tabs .active.button.is-primary{
+    margin: 0;
+}
+
 .vibebp_myprofile .mycourses_header .mycourses_access_tabs .link{
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
