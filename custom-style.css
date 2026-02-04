@@ -479,7 +479,7 @@ a.button.is-primary.small,
 
     .vibebp_myprofile .mycourses_header,
     .vibebp_myprofile .mycourses_header>div{
-        flex-direction: column!important;
+        display: block;
         width: 100%;
     }
 
