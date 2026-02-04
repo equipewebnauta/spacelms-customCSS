@@ -472,9 +472,26 @@ a.button.is-primary.small,
 }
 
 @media (max-width:1050px){
+    .vibebp_myprofile .mycourses_header{
+        padding: var(--padding-default);
+    }
+    
     .vibebp_myprofile .mycourses_header,
     .vibebp_myprofile .mycourses_header>div{
         flex-direction: column!important;
+        width: 100%;
+    }
+
+    .vibebp_myprofile .mycourses_header>div>*{
+        max-width: initial;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .vibebp_myprofile .mycourses_header>div:first-child,
+    .vibebp_myprofile .mycourses_header .vibebp_form_field {
+        width: 100%;
     }
 }
 
