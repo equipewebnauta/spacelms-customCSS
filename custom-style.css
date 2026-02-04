@@ -350,18 +350,31 @@ textarea::placeholder {
 
 /* #region BUTTON – LIQUID GLASS */
 
-.vibebp_myprofile a.button {
+.vibebp_myprofile a.button,
+a.button.is-primary.small,
+.button,
+.is-primary,
+.active {
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
-    background: var(--primary);
+    background: var(--primary)!important;
     border: 1px solid var(--glass-border-color) !important;
     box-shadow: var(--glass-shadow-1), var(--glass-shadow-2) !important;
     padding: 22px 8px;
     border-radius: var(--border-radius-default-item);
+
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: all 0.35s ease;
+    overflow: hidden;
 }
 
 
-a.button.is-primary.small {
+a.button.is-primary.small,
+.button,
+.is-primary,
+.active {
 
     position: relative;
     display: inline-flex;
@@ -369,28 +382,28 @@ a.button.is-primary.small {
     justify-content: center;
     gap: 8px;
 
-    padding: 10px 16px !important;
-    border-radius: var(--glass-radius) !important;
+    /* padding: 10px 16px !important; */
+    /* border-radius: var(--glass-radius) !important; */
 
     /* BASE GLASS */
-    backdrop-filter: blur(var(--glass-blur)) !important;
-    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
-    background: var(--glass-bg) !important;
-    border: 1px solid var(--glass-border-color) !important;
+    /* backdrop-filter: blur(var(--glass-blur)) !important; */
+    /* -webkit-backdrop-filter: blur(var(--glass-blur)) !important; */
+    /* background: var(--glass-bg) !important; */
+    /* border: 1px solid var(--glass-border-color) !important; */
 
 
 
     /* color: var(--color-glass-global) !important; */
-    text-decoration: none !important;
+    /* text-decoration: none !important;
     cursor: pointer;
 
     transition: all 0.35s ease !important;
-    overflow: hidden;
+    overflow: hidden; */
 
 }
 
 
-.button,
+/* .button,
 .is-primary,
 .active {
     position: relative;
@@ -403,20 +416,20 @@ a.button.is-primary.small {
     border-radius: var(--glass-radius) !important;
 
     /* BASE GLASS */
-    backdrop-filter: blur(var(--glass-blur)) !important;
-    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
-    background: var(--glass-bg) !important;
-    border: 1px solid var(--glass-border-color) !important;
+    /* backdrop-filter: blur(var(--glass-blur)) !important; */
+    /* -webkit-backdrop-filter: blur(var(--glass-blur)) !important; */
+    /* background: var(--glass-bg) !important; */
+    /* border: 1px solid var(--glass-border-color) !important; */
 
 
 
     /* color: var(--color-glass-global) !important; */
-    text-decoration: none !important;
-    cursor: pointer;
+    /* text-decoration: none !important; */
+    /* cursor: pointer; */
 
-    transition: all 0.35s ease !important;
-    overflow: hidden;
-}
+    /* transition: all 0.35s ease !important; */
+    /* overflow: hidden; */
+/* }  */
 
 /* REFLEXO LIQUID */
 .button::before {
