@@ -460,6 +460,17 @@ a.button.is-primary.small,
     flex: 1 0 50%;
 }
 
+
+.vibebp_myprofile .mycourses_header>div {
+    display: flex;
+    flex-direction: row !important;
+    gap: 8px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
 /* #endregion BUTTON SEARCH RESULTS E CATEGORIAS */
 
 
