@@ -353,8 +353,7 @@ textarea::placeholder {
 .vibebp_myprofile a.button,
 a.button.is-primary.small,
 .button,
-.is-primary,
-.active {
+.is-primary {
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--primary)!important;
@@ -373,8 +372,7 @@ a.button.is-primary.small,
 
 a.button.is-primary.small,
 .button,
-.is-primary,
-.active {
+.is-primary {
 
     position: relative;
     display: inline-flex;
