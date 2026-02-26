@@ -23,7 +23,7 @@
     --border-radius-default-item: 8px;
 
     --background-glass-item: rgba(255,255,255,0.12);
-    --background-overlay: var(--primary);
+    --background-overlay: var(--e-global-color-text);
 
 }
 
@@ -46,7 +46,7 @@ body {
     /* color: white !important; */
     overflow-x: hidden;
     transition: opacity 0.5s ease;
-    /*--background-overlay: var(--primary);*/
+    /* --background-overlay: var(--primary); */
 }
 
 body::before,
