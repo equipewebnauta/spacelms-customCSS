@@ -1079,7 +1079,7 @@ div.inicio.external_link {
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: transparent !important;
-    border: none !important;
+    border: 1px solid #000 !important;
     /* padding: 3% !important; */
     /* box-shadow: var(--glass-shadow-1), var(--glass-shadow-2); */
     /* color: var(--color-glass-global) !important; */
@@ -1135,11 +1135,11 @@ div.inicio.external_link {
 }
 
 .course_status .course_timeline .section:has(+ .unit.collapsed_lesson) {
-  margin-bottom: 20px;
+  margin-bottom: 16px!important;
 }
 
 .course_status .course_timeline .section:has(+ .unit.open_lesson) {
-  margin-bottom: 0;
+  margin-bottom: 0!important;
 }
 
 
