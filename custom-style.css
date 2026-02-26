@@ -1080,7 +1080,7 @@ div.inicio.external_link {
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: transparent !important;
-    border: 1px solid #000 !important;
+    border: 1px solid var(--glass-border-color) !important;
     /* padding: 3% !important; */
     /* box-shadow: var(--glass-shadow-1), var(--glass-shadow-2); */
     /* color: var(--color-glass-global) !important; */
@@ -1132,7 +1132,12 @@ div.inicio.external_link {
 .vibebp_main .course_status .course_timeline{
     margin: 15px;
     border: none!important;
-    border-radius: var(--border-radius-default);
+    border-radius: var(--border-radius-default)!important;
+    height: 96%;
+    background: var(--background-glass-item) !important;
+    position: sticky;
+    overflow-y: auto;
+    top: 15px;
 }
 
 .course_status .course_timeline .section:has(+ .unit.collapsed_lesson) {
