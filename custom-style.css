@@ -24,6 +24,7 @@
 
     --background-glass-item: rgba(255,255,255,0.12);
     --background-overlay: var(--indigo);
+    --background-opacity: .32;
 
 }
 
@@ -58,7 +59,7 @@ body::before,
     width: 100%;
     height: 100%;
     background-color: var(--background-overlay);
-    opacity: .32;
+    opacity: var(--background-opacity);
 }
 
 .vibebp_myprofile {
