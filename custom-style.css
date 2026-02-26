@@ -23,7 +23,7 @@
     --border-radius-default-item: 8px;
 
     --background-glass-item: rgba(255,255,255,0.12);
-    /* --background-overlay: var(--primary); */
+    --background-overlay: '';
 
 }
 
