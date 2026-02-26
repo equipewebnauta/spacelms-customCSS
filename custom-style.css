@@ -686,6 +686,10 @@ a.button.is-primary.small,
     }
 }
 
+.vibebp_myprofile .profile_grid .profile_grid_header{
+    z-index: 9999999!important;
+}
+
 /* #endregion SIDEBAR SECUNDARIA */
 
 /* #endregion ================== CONFIGURAÇÕES PADRÕES ================== */
