@@ -1133,10 +1133,10 @@ div.inicio.external_link {
     margin: 15px;
     border: none!important;
     border-radius: var(--border-radius-default)!important;
-    height: 96%;
+    /* height: 96%; */
     background: var(--background-glass-item) !important;
-    position: sticky;
-    overflow-y: auto;
+    /* position: sticky; */
+    /* overflow-y: auto; */
     top: 15px;
 }
 
