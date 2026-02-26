@@ -1073,7 +1073,8 @@ div.inicio.external_link {
 .unit,
 .section,
 .course_content_content,
-.unit_attachments {
+.unit_attachments,
+.course_heading {
 
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
@@ -1133,14 +1134,13 @@ div.inicio.external_link {
     border-radius: var(--border-radius-default);
 }
 
-.course_status .course_timeline .section:has(.collapsed_lesson) {
+.course_status .course_timeline .section:has(+ .unit.collapsed_lesson) {
   margin-bottom: 20px;
 }
 
-.course_status .course_timeline .section:has(.open_lesson) {
+.course_status .course_timeline .section:has(+ .unit.open_lesson) {
   margin-bottom: 0;
 }
-
 
 
 /* #endregion  */
