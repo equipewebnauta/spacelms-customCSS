@@ -195,7 +195,8 @@ body::before,
 .reviewpopup_content,
 .student_list,
 .download_stats_wrapper,
-.field_description {
+.field_description,
+.course_status .course_timeline {
     backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
@@ -220,10 +221,10 @@ body::before,
 
 
 .course_heading {
-    backdrop-filter: blur(var(--glass-blur)) !important;
+    /* backdrop-filter: blur(var(--glass-blur)) !important;
     -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
     background: var(--glass-bg) !important;
-    border: 1px solid var(--glass-border-color) !important;
+    border: 1px solid var(--glass-border-color) !important; */
 
 
     /* color: var(--color-glass-global) !important; */
@@ -1142,6 +1143,10 @@ div.inicio.external_link {
   margin-bottom: 0!important;
 }
 
+.course_status .course_timeline .course_action_points{
+    position: static!important;
+}
+
 
 /* #endregion  */
 
@@ -1364,20 +1369,6 @@ div.inicio.external_link {
 
 
 /* #region Visualizar curso  */
-
-
-.course_heading {
-    backdrop-filter: blur(var(--glass-blur)) !important;
-    -webkit-backdrop-filter: blur(var(--glass-blur)) !important;
-    background: var(--glass-bg) !important;
-    border: 1px solid var(--glass-border-color) !important;
-
-
-    /* color: var(--color-glass-global) !important;*/
-} 
-
-
-
 
 .course_header,
 .course_tab_content {
