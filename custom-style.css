@@ -1140,7 +1140,7 @@ div.inicio.external_link {
     top: 15px;
 }
 
-@media (max-width:780px){
+@media (max-width:785px){
     .vibebp_main .course_status .course_timeline{
         position: relative;
         height: initial;
